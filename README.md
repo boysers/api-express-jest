@@ -1,11 +1,7 @@
-# template-api-express-typescript
+# api-expressjs-jest
 
-```
-// environment variable :
+make init
 
-PORT=3000
-```
+make dev
 
-dev: npm run dev
-
-prod: npm run build | npm run start
+make prod
