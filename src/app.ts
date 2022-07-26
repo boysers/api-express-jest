@@ -13,9 +13,4 @@ app.use(cors(corsOptions))
 
 app.use(routerRoot)
 
-app.use('*', (req, res) => {
-  const error = { message: 'path not found' }
-  res.status(404).json(error)
-})
-
 export default app

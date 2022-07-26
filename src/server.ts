@@ -7,6 +7,6 @@ app.set('port', port)
 const httpServer = createServer(app)
 
 httpServer.on('error', (err) => console.error('Error :', err))
-httpServer.on('listening', () => console.log('Listening on', port))
+httpServer.on('listening', () => console.log('Listening on port', port))
 
 httpServer.listen(port)
